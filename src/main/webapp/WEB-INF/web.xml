@@ -1,0 +1,26 @@
+
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+
+    <listener>
+        <listener-class>com.example.ServletListener</listener-class>
+    </listener>
+
+    <servlet>
+        <servlet-name>sessionManagement</servlet-name>
+        <servlet-class>com.example.servlets.SessionManagement</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sessionManagement</servlet-name>
+        <url-pattern>/SessionManagement</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>servletClass</servlet-name>
+        <servlet-class>com.example.servlets.ServletClass</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletClass</servlet-name>
+        <url-pattern>/session</url-pattern>
+    </servlet-mapping>
+</web-app>
